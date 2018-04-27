@@ -1,0 +1,39 @@
+
+// Julia Froegel
+
+import java.util.*;
+
+public class H1<T extends Comparable <? super T>> {
+	
+	private class Node {
+		T data;
+		Node next;
+		Node(T d, Node n) {
+			data=d;
+			next=n;
+		}
+	}
+	
+	private Node head;
+	
+	public H1() {
+		head=null;
+	}
+	
+	public void insert(T d) {
+	//Pre: the list is sorted in ascending order
+	//Post: d has been added to the list and the list is sorted in ascending order
+		
+	}
+	
+	public String toString() {
+	// returns a comma delimited string of the contents of list
+	// the implementation must be recursive. use and auxilary method to do most of the work;
+		
+	}
+	
+	public static void main(String args[]) throws IOException {
+		
+	}
+
+}

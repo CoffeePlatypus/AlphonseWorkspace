@@ -1,0 +1,10 @@
+
+public class IntegerNumber implements Filter{
+
+	@Override
+	public boolean accepts(Object e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

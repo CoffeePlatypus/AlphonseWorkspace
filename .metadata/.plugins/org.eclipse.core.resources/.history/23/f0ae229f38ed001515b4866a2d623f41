@@ -1,0 +1,15 @@
+package hw5;
+
+public class Cruncher {
+	
+	public static void main(String args[]) {
+		Prestidigitation n1=new Prestidigitation(11);
+		Prestidigitation n2=new Prestidigitation(134);
+		Prestidigitation n3=new Prestidigitation(12);
+		Prestidigitation n4=new Prestidigitation(11);
+		
+		n1=(Prestidigitation) n1.mul(n4);
+		System.out.println(n1.toSting()); 
+	}
+
+}

@@ -1,0 +1,7 @@
+rhits : 3
+whits : 4
+rmisses : 5
+wmisses : 3
+hit rate : 0.4666666666666667
+wb : 0
+wt : 0

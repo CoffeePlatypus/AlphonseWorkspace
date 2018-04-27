@@ -1,0 +1,45 @@
+
+public class SinglyLinkedList<E> extends AbstractList<E> {
+	private SinglyLinkedListNode<E> head;
+	private int size;
+	
+	public SinglyLinkedList() {
+		size=0;
+		head=null;
+	}
+	
+	public boolean add(E e) {
+		SinglyLinkedListNode<E> node= new SinglyLinkedListNode<E>(e, null);
+		if(head==null) {
+			head=node;
+		}else{
+			SinglyLinkedListNode<E> last=head;
+			while(last.getNext()!=null){
+				last=last.getNext();
+			}
+			last.setNext(node);
+		}
+		size++;
+		return true;
+	}
+	
+	public boolean addAtFront(E e) {
+		head=new SinglyLinkedListNode<E>(e, head);
+		size++;
+		return true;
+	}
+	
+	public E get(int i) {
+		if(i>size) {
+			throw new IndexOutOfBoundsException();
+		}
+		SinglyLinkedListNode<E> ith=head;
+		for(int j=0; j<i; j++) {
+			ith=ith.getNext();
+		}
+		return ith.getValue();
+	}
+	 public int size() {
+		 return size;
+	 }
+}

@@ -1,0 +1,17 @@
+package hw5;
+
+public class Cruncher {
+	
+	public static void main(String args[]) {
+		//ArrayList<Prestidigitation> listOfNumbers= new ArrayList<Prestidigitation>();
+		//ArrayList<String> operation=new ArrayList<String>();
+		Prestidigitation n1=new Prestidigitation(1);
+		Prestidigitation n2=new Prestidigitation(125);
+		Prestidigitation n3=new Prestidigitation(12);
+		Prestidigitation n4=new Prestidigitation(9999);
+		
+		n1=(Prestidigitation) n1.add(n3);
+		System.out.println((n1.toString())); 
+	}
+
+}

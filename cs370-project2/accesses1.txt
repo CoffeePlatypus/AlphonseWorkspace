@@ -1,0 +1,15 @@
+r 004aaaa8
+r 004aaab0
+r 004a9cc0
+r 004aa9a0
+w 7fff9e60
+w 7fff9e58
+r 004aad08
+w 7fff9e48
+r 004aea70
+w 7fff9e50
+w 7fff9e68
+r 004aad10
+w 7fff9e38
+r 004aad08
+w 004aea70

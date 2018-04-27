@@ -1,0 +1,12 @@
+
+public class IsReddish implements Filter<Color> {
+
+	@Override
+	public boolean accepts(Object e) {
+		// TODO Auto-generated method stub
+		return false;
+
+
+	}
+
+}
