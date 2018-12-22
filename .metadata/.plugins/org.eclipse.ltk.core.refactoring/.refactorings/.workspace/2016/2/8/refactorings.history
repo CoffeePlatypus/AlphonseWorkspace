@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename Java project &apos;FindersKeepers&apos; to &apos;cs220-hw2&apos;&#x0D;&#x0A;- Original element: &apos;FindersKeepers&apos;&#x0D;&#x0A;- Renamed element: &apos;FindersKeepers&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;FindersKeepers&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=FindersKeepers" name="cs220-hw2" references="true" stamp="1455901957028" version="1.0"/>
-</session>

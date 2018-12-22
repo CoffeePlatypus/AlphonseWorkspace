@@ -1,5 +1,0 @@
-
-public class SinglyLinkedList<E> extends AbstractList<E> {
-	private SinglyLinkedListNode<E> head;
-	private int size;
-}

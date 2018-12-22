@@ -1,6 +1,0 @@
-ConnectToName=true
-ConnectionName=10.0.1.1
-eclipse.preferences.version=1
-ev3Home=C\:\\Program Files\\leJOS EV3
-run.runAfterUpload=false
-useSshScp=true
